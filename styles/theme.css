@@ -1,0 +1,18 @@
+/* CDN Fonts */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css');
+
+/* Font Faces */
+@font-face {
+  font-family: 'SchoolSafetyStarrySky';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimByeolbichhaneulTTF-L.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* CSS Variables */
+:root {
+  --font-ko-main: 'SchoolSafetyStarrySky', sans-serif;
+  --font-ko-sub: 'Pretendard', sans-serif;
+  --color-primary: #FFFFFF;
+  --color-secondary: #474E31;
+}
