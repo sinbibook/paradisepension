@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.0.0",
-    "generatedAt": "2026-01-12T00:04:25.277Z",
+    "version": "1.1.0",
+    "generatedAt": "2026-01-12T03:14:25.543Z",
     "templateType": "full_banner_slider",
     "propertyId": "cb762981-ee6f-4d50-a8bf-81b03d01f520",
     "homepageId": "6d7779e3-3583-4f05-939c-f05e00bb6373"
@@ -632,20 +632,20 @@
               "id": "15434a05-53c0-4753-9b2b-0b07104a64ee",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/roomtype/292a7559-7da2-4da4-8e12-226fe93bd300/exterior/1767937589667-mmy0y7milp.jpeg",
               "sortOrder": 0,
-              "description": " 커피커신/캡슐 제공",
+              "description": "커피머신/캡슐 제공",
               "isSelected": true
             },
             {
               "id": "8f0f4f0d-ee10-4c19-91ae-f82c47742b89",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/roomtype/292a7559-7da2-4da4-8e12-226fe93bd300/exterior/1767949329462-vs7rmsxyxok.jpg",
-              "sortOrder": 0,
+              "sortOrder": 1,
               "description": "단독 바베큐장",
               "isSelected": true
             },
             {
               "id": "ae25d55c-ede7-4804-9f75-ba337a4bce11",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/roomtype/292a7559-7da2-4da4-8e12-226fe93bd300/exterior/1767949329462-0ow3hkpe069.jpeg",
-              "sortOrder": 1,
+              "sortOrder": 2,
               "description": "루프탑 풀장 (온수풀가능)",
               "isSelected": true
             }
@@ -894,9 +894,6 @@
           ]
         }
       },
-      "popup": {
-        "popups": []
-      },
       "theme": {
         "font": {
           "koSub": {
@@ -917,8 +914,10 @@
           "primary": "#FFFFFF",
           "secondary": "#474E31"
         }
+      },
+      "popup": {
+        "popups": []
       }
-    },
-    "id": "6d7779e3-3583-4f05-939c-f05e00bb6373"
+    }
   }
 }
