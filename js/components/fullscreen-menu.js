@@ -108,13 +108,18 @@ class FullScreenMenu {
 
         const data = this.data;
 
-        // SPACES 메뉴 업데이트 (rooms 데이터)
+        // SPACES 메뉴 업데이트 (rooms 데이터) - customFields 객실명 사용
         if (data.rooms && data.rooms.length > 0) {
-            window.menuData.spaces.subMenus = data.rooms.map(room => ({
-                id: `room-${room.id}`,
-                label: room.name,
-                roomId: room.id
-            }));
+            const builderRoomtypes = data.homepage?.customFields?.roomtypes || [];
+            window.menuData.spaces.subMenus = data.rooms.map(room => {
+                const builderRoom = builderRoomtypes.find(rt => rt.id === room.id);
+                const roomName = (builderRoom?.name && builderRoom.name.trim()) ? builderRoom.name : room.name;
+                return {
+                    id: `room-${room.id}`,
+                    label: roomName,
+                    roomId: room.id
+                };
+            });
         }
 
         // SPECIALS 메뉴 업데이트 (facilities 데이터)

@@ -18,19 +18,20 @@ class HeaderFooterMapper extends BaseDataMapper {
     mapHeaderLogo() {
         if (!this.isDataLoaded || !this.data.property) return;
 
-        const property = this.data.property;
+        // customFields 헬퍼를 통해 숙소명 가져오기
+        const builderPropertyName = this.getPropertyName();
 
         // Header 로고 텍스트 매핑 (.logo-text)
         const logoText = this.safeSelect('.logo-text');
-        if (logoText && property.name) {
-            logoText.textContent = property.name;
+        if (logoText) {
+            logoText.textContent = builderPropertyName;
         }
 
         // Property name 매핑 (data-property-name 속성)
         const propertyNameElements = this.safeSelectAll('[data-property-name]');
         propertyNameElements.forEach(element => {
-            if (element && property.name) {
-                element.textContent = property.name;
+            if (element) {
+                element.textContent = builderPropertyName;
             }
         });
     }
@@ -90,10 +91,13 @@ class HeaderFooterMapper extends BaseDataMapper {
 
             if (roomData && Array.isArray(roomData) && roomData.length > 0) {
                 roomData.forEach((room, index) => {
+                    // customFields 헬퍼를 통해 객실명 가져오기
+                    const roomName = this.getRoomName(room);
+
                     const li = document.createElement('li');
                     const a = document.createElement('a');
-                    a.href = `room.html?index=${index}`;
-                    a.textContent = room.name || `객실${index + 1}`;
+                    a.href = `room.html?id=${room.id}`;
+                    a.textContent = roomName;
                     li.appendChild(a);
                     submenu.appendChild(li);
                 });
@@ -107,12 +111,15 @@ class HeaderFooterMapper extends BaseDataMapper {
 
             if (roomData && Array.isArray(roomData) && roomData.length > 0) {
                 roomData.forEach((room, index) => {
+                    // customFields 헬퍼를 통해 객실명 가져오기
+                    const roomName = this.getRoomName(room);
+
                     const button = document.createElement('button');
                     button.className = 'mobile-sub-item';
                     button.type = 'button';
-                    button.textContent = room.name || `객실${index + 1}`;
+                    button.textContent = roomName;
                     button.addEventListener('click', () => {
-                        window.location.href = `room.html?index=${index}`;
+                        window.location.href = `room.html?id=${room.id}`;
                     });
                     mobileSpacesContainer.appendChild(button);
                 });
@@ -217,12 +224,13 @@ class HeaderFooterMapper extends BaseDataMapper {
             }
         });
 
-        // 저작권 정보 매핑 (data-footer-copyright)
+        // 저작권 정보 매핑 (data-footer-copyright) - customFields 헬퍼 사용
+        const builderPropertyName = this.getPropertyName();
         const copyrightElements = this.safeSelectAll('[data-footer-copyright]');
         copyrightElements.forEach(copyrightEl => {
-            if (copyrightEl && property.name) {
+            if (copyrightEl && builderPropertyName) {
                 const currentYear = new Date().getFullYear();
-                copyrightEl.textContent = `© ${currentYear} ${property.name}. All rights reserved.`;
+                copyrightEl.textContent = `© ${currentYear} ${builderPropertyName}. All rights reserved.`;
             }
         });
 
