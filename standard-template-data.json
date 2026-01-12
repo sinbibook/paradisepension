@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.5.0",
-    "generatedAt": "2026-01-12T09:16:01.604Z",
+    "version": "1.6.0",
+    "generatedAt": "2026-01-12T09:18:52.021Z",
     "templateType": "full_banner_slider",
     "propertyId": "cb762981-ee6f-4d50-a8bf-81b03d01f520",
     "homepageId": "6d7779e3-3583-4f05-939c-f05e00bb6373"
@@ -919,7 +919,56 @@
         "popups": []
       },
       "property": {
-        "images": []
+        "images": [
+          {
+            "id": "1db26347-fae2-488d-8fa5-131fcb1b478d",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/property_thumbnail/1768209523302-nlczcepe2o.jpeg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true,
+            "category": "property_thumbnail"
+          },
+          {
+            "id": "ea92252c-91a2-451d-ab69-995b509ebc42",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/property_exterior/1768209523302-ldh69put1b.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "f5423170-9ffb-4215-97b3-c7c8f683316b",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/property_exterior/1768209523302-pcsappl2kar.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "31d5a663-6be9-46c8-a75e-1103efb41767",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/property_exterior/1768209523302-2rrxvsjvcau.jpeg",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "769bfacb-d82f-466b-92c3-43ae6b883c41",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/property_exterior/1768209523302-oij697l5dfc.jpg",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "10a6a3b6-46f1-448e-beaf-ba88c811d0c2",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/property_exterior/1768209523302-wmwb1qa7m.jpeg",
+            "sortOrder": 4,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          }
+        ]
       },
       "roomtypes": [
         {
@@ -937,7 +986,7 @@
             {
               "id": "81fc44a7-d9b6-496b-b598-63fed6dc5a1e",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/roomtype_interior/1768209324817-snhl9hocoa.jpeg",
-              "sortOrder": 1,
+              "sortOrder": 0,
               "description": "",
               "isSelected": true,
               "blockId": "292a7559-7da2-4da4-8e12-226fe93bd300",
@@ -1135,7 +1184,7 @@
             {
               "id": "d6ac5477-8bc9-43f1-92a4-8765e0f94acc",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/roomtype_exterior/1768209324818-ujeng8pq6mi.jpg",
-              "sortOrder": 1,
+              "sortOrder": 0,
               "description": "단독 바베큐장",
               "isSelected": true,
               "blockId": "292a7559-7da2-4da4-8e12-226fe93bd300",
@@ -1144,7 +1193,7 @@
             {
               "id": "8889e60a-04f1-4f0b-961f-fadaddb9e9d8",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/roomtype_exterior/1768209324818-zoiebletlon.jpeg",
-              "sortOrder": 2,
+              "sortOrder": 1,
               "description": "루프탑 풀장 (온수풀가능)",
               "isSelected": true,
               "blockId": "292a7559-7da2-4da4-8e12-226fe93bd300",
@@ -1153,7 +1202,7 @@
             {
               "id": "6e79dc6a-e84d-46d5-8e83-f8ed5382b784",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/roomtype_exterior/1768209324818-ouc6u9nkhg.jpeg",
-              "sortOrder": 23,
+              "sortOrder": 2,
               "description": "커피머신/캡슐 제공",
               "isSelected": true,
               "blockId": "292a7559-7da2-4da4-8e12-226fe93bd300",
