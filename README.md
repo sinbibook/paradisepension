@@ -1,1 +1,1 @@
-# paradisepension
+# template-full-banner-slider
