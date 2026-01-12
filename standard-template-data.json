@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.6.0",
-    "generatedAt": "2026-01-12T09:18:52.021Z",
+    "version": "1.7.0",
+    "generatedAt": "2026-01-12T09:19:40.784Z",
     "templateType": "full_banner_slider",
     "propertyId": "cb762981-ee6f-4d50-a8bf-81b03d01f520",
     "homepageId": "6d7779e3-3583-4f05-939c-f05e00bb6373"
@@ -931,7 +931,7 @@
           {
             "id": "ea92252c-91a2-451d-ab69-995b509ebc42",
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/property_exterior/1768209523302-ldh69put1b.jpg",
-            "sortOrder": 1,
+            "sortOrder": 0,
             "description": "",
             "isSelected": true,
             "category": "property_exterior"
@@ -1194,7 +1194,7 @@
               "id": "8889e60a-04f1-4f0b-961f-fadaddb9e9d8",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/roomtype_exterior/1768209324818-zoiebletlon.jpeg",
               "sortOrder": 1,
-              "description": "루프탑 풀장 (온수풀가능)",
+              "description": "단독 수영장",
               "isSelected": true,
               "blockId": "292a7559-7da2-4da4-8e12-226fe93bd300",
               "category": "roomtype_exterior"
