@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.1.0",
-    "generatedAt": "2026-01-12T03:14:25.543Z",
+    "version": "1.2.0",
+    "generatedAt": "2026-01-12T09:00:30.366Z",
     "templateType": "full_banner_slider",
     "propertyId": "cb762981-ee6f-4d50-a8bf-81b03d01f520",
     "homepageId": "6d7779e3-3583-4f05-939c-f05e00bb6373"
@@ -787,7 +787,7 @@
                     "id": "a6c26ec8-4906-4c03-b887-5866ec2346bb",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/6d7779e3-3583-4f05-939c-f05e00bb6373/index_signature/1767945241778-tazpyomntvm.jpeg",
                     "sortOrder": 2,
-                    "description": "높은 곳에서 누리는 \r\n가장 깊은 휴식\r\n산 전망 루프탑에서 즐기는\r\n프라이빗 단독 수영장",
+                    "description": "우리끼리만 누리는 \n가장 깊은 휴식\n산 전망을 바라보며 즐기는\n프라이빗 단독 수영장",
                     "isSelected": true
                   }
                 ],
@@ -917,7 +917,17 @@
       },
       "popup": {
         "popups": []
-      }
-    }
+      },
+      "property": {
+        "images": []
+      },
+      "roomtypes": [
+        {
+          "id": "292a7559-7da2-4da4-8e12-226fe93bd300",
+          "images": []
+        }
+      ]
+    },
+    "id": "6d7779e3-3583-4f05-939c-f05e00bb6373"
   }
 }
